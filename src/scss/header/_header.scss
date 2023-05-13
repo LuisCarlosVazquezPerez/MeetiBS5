@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+.header{
+padding-top: 3rem;
+padding-bottom: 3rem; /* CODIGO DEL TELEFONO MOVIL */
+
+@include media-breakpoint-up(md){ /*MEDIA QUERI */
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+}
+
+.logo{
+    width: 10rem;
+}
